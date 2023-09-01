@@ -8,8 +8,8 @@
 # for the user to interact with. It also contains the Downloader
 # class, which is used to download the video.
 
-from .Query import LinkQuery
-from .Details import StreamQuery,Data,VideoDetails,Stream
+from .query import LinkQuery
+from .details import StreamQuery,Data,VideoDetails,Stream
 from typing import Literal
 
 StreamType = Literal["audio","video"]
